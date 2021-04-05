@@ -1,4 +1,4 @@
-# Scikit-Learn-Model-Deployment-for-SVR-RF-Boosting-Algorithms
+# Scikit-Learn Model Deployment for SVR, RF, Boosting Regression Algorithms
 Scikit-Learn models can be efficiently stored in a encrypted format for the deployment purposes. This way dependency on un-protected pickle or joblib files can be eliminated. 
 
 The current implentation uses AES (Advanced Encryption Standard) algorithmn (Crypto package). AES uses symmetric key encryption, which involves the use of only one secret key to cipher and decipher information. *encrypt_model* function encrypts the models and store it locally. *decrypt_model* function loads the encrypted file and decrypts it. 
